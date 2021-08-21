@@ -64,67 +64,55 @@ background: #292929;
     height: 10px;
 }
 
-
-
-
-
-
-
-.dropdown {
-    /* Border */
-
-    display: flex;
-
-    /* Reset list styles */
-    list-style-type: none;
-
+.lists{
+    background: #000000;
+    width: 300px;
 }
-
-.dropdown li {
-padding: 13px;
-padding-left: 20px;
-    /* Used to position the sub dropdown */
-    position: relative;
+.listsborder{
+    margin: 20px 0 0 100px;
+    border-top: 2px solid #dacb46;
+    width: 300px;
 }
-
-/* The sub dropdown */
-.dropdown ul {
-    /* Border */
-    border: 1px solid rgba(0, 0, 0, 0.3);
-
-    /* Hidden by default */
-    display: none;
-
-    /* Absolute position */
-    left: 0;
-    position: absolute;
-    top: 100%;
-
-    /* Reset styles */
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-    /* Width */
-    width: 200px;
+.listul{
+    margin-left: 20px;
+        list-style-image: url('/img/bullet.png');
+      
 }
-
-/* The second level sub dropdown */
-.dropdown ul ul {
-    left: 100%;
-    position: absolute;
-    top: 0;
+.lista{
+    color:#dacb46;
+    text-decoration: none;
+    transition: .3s ease;
 }
-
-/* Change background color of list item when being hovered */
-.dropdown li:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+.lista:hover{
+    color:#fafafa;
+    transition: .3s ease;
 }
-
-/* Show the direct sub dropdown when hovering the list item */
-.dropdown li:hover > ul {
-    display: block;
+.spacebetween{
+    height: 5px;
 }
+.ig{
+    text-decoration: none;
+    color: #f59a13;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+} 
+  td, th {
+    border: 1px solid #dacb46;
+    text-align: left;
+    padding: 8px;
+  }
+  a{
+      color:#dacb46 ;
+      text-decoration: none;
+      transition: .2s ease;
+  }
+  a:hover{
+      color:#fafafa;
+      transition: .2s ease;
+  }
+  
 
 
 
@@ -132,13 +120,7 @@ padding-left: 20px;
 
 
 
-
-
-
-
-
-
-@media(max-width:405px){
+@media(max-width:422px){
     .navbar{
         width: 100%;
         height: 76px;
@@ -147,6 +129,10 @@ padding-left: 20px;
     h1{
         transition: .5s;
         padding: 50px 0 0 10px;
+    }
+    .listsborder{
+        transition: .3s;
+        margin: 20px 0 0 4px;
     }
 }
 @media(max-width:610px){
