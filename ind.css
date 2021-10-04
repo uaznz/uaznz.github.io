@@ -2,20 +2,29 @@ body{
     background-color: #000000;
     color: #fdfdfd;
 }
-a{
+.main{
     text-decoration: none;
     color: rgb(238, 255, 0);
-    padding-left: 50px;
+    padding-left: 30px;
 }
-a:hover{
+.main:hover{
     color: red;
 }
-a:active{
-    color:blue;
+.main:active{
+    color:yellowgreen;
 }
-a:visited{
+.main:visited{
     color: red;
 }
 h2{
-    color: red;
+    color: rgb(5, 255, 46);
+}
+.down{
+    color: rgb(2, 223, 252);
+    text-decoration: none;
+    padding-left: 50px;
+}
+.phy{
+    color: #e6e621dc;
+    text-decoration: none;
 }
