@@ -13,9 +13,7 @@ body{
 .main:active{
     color:yellowgreen;
 }
-.main:visited{
-    color: red;
-}
+
 h2{
     color: rgb(5, 255, 46);
 }
